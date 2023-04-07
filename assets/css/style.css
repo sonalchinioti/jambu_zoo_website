@@ -420,7 +420,7 @@ img {
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before{
-  animation: letters-loading 4s infinite;
+  animation: letters-loading 6s infinite;
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
@@ -459,7 +459,7 @@ img {
 
 .preloader .loaded .animation-preloader {
   opacity: 0;
-  transition: 0.3s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading{
