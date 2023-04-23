@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </div> -->
-            <div class="header-lower">
+             <div class="header-lower">
                 <div class="outer-box">
                     <div class="logo-box">
                         <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
@@ -124,7 +124,7 @@
                                             <li><a href="dos_and_donts.html">Do's & Dont's</a></li>
                                             <li><a href="visitor_facilities.html">Visitor Facilities</a></li>
                                             <li><a href="regulation.html">Regulation</a></li>
-                                            <li><a href="index.html">Map of Zoo</a></li>
+                                            <li><a href="zoo_map.html">Map of Zoo</a></li>
                                             <li><a href="how_to_reach.html">How to Reach</a></li>
 
                                             <li><a href="timming_and_tarrif.html">Timing And Tariff</a></li>
@@ -132,12 +132,10 @@
                                     </li>
                                     <li class="dropdown"><a href="index.html">ANIMALS AND PLANTS</a>
                                         <ul>
-                                            <li><a href="animals.html">Animals</a></li>
-                                            <li><a href="index.html">Mammals</a></li>
-                                            <li><a href="index.html">List of Free Ranging Animals</a></li>
-                                            <li><a href="index.html">Animals Inventory</a></li>
-                                            <li><a href="index.html">New Birth</a></li>
-                                            <li><a href="index.html">Plants</a></li>
+                                            <li><a href="animal.html">Animals</a></li>
+                                            <li><a href="list_of_free_ranging_animals.html">List of Free Ranging Animals</a></li>
+                                            <li><a href="animal_inventory.html">Animals Inventory</a></li>
+                                            <li><a href="plants.html">Plants</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#gallery_section">GALLERY</a>
@@ -216,14 +214,7 @@
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-                <div class="contact-info">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    </ul>
-                </div>
+
                 <div class="social-links">
                     <ul class="clearfix">
                         <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
@@ -250,7 +241,7 @@
                         <li>Visitor Information</li>
                     </ul>
                     <div class="title">
-                        <h1>Do's And Don't</h1>
+                        <h1>Zoo Map</h1>
                     </div>
                 </div>
             </div>
@@ -261,16 +252,10 @@
         <section class="animals-details">
             <div class="auto-container">
                 <div class="animals-details-content">
-                    <div class="content-box">
-                        <div class="row clearfix">
-                            <div class="col-lg-12 col-md-12 col-sm-12 content-side">
-                                <div class="text">
-                                    <h5>Zoo map coming soon!</h5>
-                                </div>
-                            </div>
-
+                   <div class="auto-container">
+                        <div class="img-magnifier-container">
+                             <img id="myimage" src="assets/images/background/jambu_zoo_map.jpg" alt="Girl">
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -387,9 +372,14 @@
     <script src="assets/js/jquery.fancybox.js"></script>
     <script src="assets/js/appear.js"></script>
     <script src="assets/js/scrollbar.js"></script>
+    <script src="assets/js/magnify.js"></script>
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
+    <script type="text/javascript">
+        magnify("myimage", 3);
+
+    </script>
 
 </body><!-- End of .page_wrapper -->
 </html>

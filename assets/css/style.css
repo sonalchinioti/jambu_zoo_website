@@ -5053,3 +5053,23 @@ div#mCSB_1_container{
 .pricing-section .owl-carousel .owl-stage-outer .owl-item.active{
   opacity: 1;
 }
+
+/***
+ Image Zoom in and Zoom out
+ ***/
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
