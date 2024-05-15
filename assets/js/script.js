@@ -371,7 +371,7 @@
 			nav: true,
 			smartSpeed: 500,
 			autoplay: 1000,
-			navText: [ '<span class="fal fa-angle-left"></span>', '<span class="fal fa-angle-right"></span>' ],
+			navText: ['<i class="fa fa-solid fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 			responsive:{
 				0:{
 					items:1
