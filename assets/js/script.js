@@ -366,9 +366,9 @@
 	// gallery-carousel
 	if ($('.gallery-carousel').length) {
 		$('.gallery-carousel').owlCarousel({
-			loop:true,
+			loop: true,
 			margin:0,
-			nav:false,
+			nav: true,
 			smartSpeed: 500,
 			autoplay: 1000,
 			navText: [ '<span class="fal fa-angle-left"></span>', '<span class="fal fa-angle-right"></span>' ],
@@ -387,8 +387,28 @@
 				},			
 				1200:{
 					items:5
+				},
+				1600:{
+					items: 6
+				},
+				2000:{
+					items: 7
+				},
+				2400:{
+					items: 8
+				},
+				2800:{
+					items: 9
+				},
+				3200:{
+					items: 10
+				},
+				3600:{
+					items: 11
+				},
+				4000:{
+					items: 12
 				}
-
 			}
 		});    		
 	}
