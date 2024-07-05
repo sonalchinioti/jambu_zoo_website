@@ -260,6 +260,11 @@ img {
   width: 100%;
 }
 
+.btn-sandstone {
+  background: #fd5634;
+  border-color: #fd5634;
+  margin-top: 5px;
+}
 
 .pagination{
   position: relative;
