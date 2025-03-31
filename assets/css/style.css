@@ -5115,3 +5115,17 @@ div#mCSB_1_container{
     border:0px solid black;
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+.zoo_time_table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+}
+.zoo_time_table th, .zoo_time_table td {
+    border: 2px solid black;
+    padding: 10px;
+}
+.zoo_time_table th {
+    background-color: #f2f2f2;
+}
