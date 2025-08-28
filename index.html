@@ -727,6 +727,14 @@
         </button>
     </div>
 
+    <!-- Maintenance Notice Modal -->
+    <div id="maintenanceModal" class="maintenance-modal">
+      <div class="maintenance-modal-content">
+        <span class="maintenance-close" id="closeMaintenance">&times;</span>
+        <img src="assets/images/attention-notice.png" alt="Jambu Zoo Maintenance Notice">
+      </div>
+    </div>
+
 
     <!-- jequery plugins -->
     <script src="assets/js/jquery.js"></script>
@@ -742,6 +750,29 @@
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
+
+    <!-- Maintenance Modal Script -->
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const modal = document.getElementById("maintenanceModal");
+          const closeBtn = document.getElementById("closeMaintenance");
+
+          // Show modal when page loads
+          modal.style.display = "flex";
+
+          // Close modal when clicking close button
+          closeBtn.addEventListener("click", function() {
+            modal.style.display = "none";
+          });
+
+          // Close modal when clicking outside modal content
+          window.addEventListener("click", function(event) {
+            if (event.target === modal) {
+              modal.style.display = "none";
+            }
+          });
+        });
+        </script>
 
 </body><!-- End of .page_wrapper -->
 </html>
